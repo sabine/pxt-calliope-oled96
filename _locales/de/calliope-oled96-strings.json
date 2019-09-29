@@ -1,0 +1,18 @@
+{
+  "oled96.clearDisplay|block": "lösche die OLED Anzeige",
+  "oled96.clearRange|block": "%n|Zeichen von der OLED Anzeige löschen",
+  "oled96.cmd|block": "sende Kommando %c|zur OLED Anzeige",
+  "oled96.flipScreen|block": "stelle die OLED Anzeige auf den Kopf",
+  "oled96.initDisplay|block": "OLED Anzeige initialisieren",
+  "oled96.invertDisplay|block": "OLED Anzeige: Schwarz auf weiß",
+  "oled96.normalDisplay|block": "OLED Anzeige: Weiß auf schwarz",
+  "oled96.setDisplayBrightness|block": "setze die Helligkeit der OLED Anzeige|auf %brightness",
+  "oled96.setTextXY|block": "Setze den Cursor der OLED Anzeige auf|Reihe %row|und Spalte %column",
+  "oled96.turnOff|block": "OLED Anzeige ausschalten",
+  "oled96.turnOn|block": "OLED Anzeige einschalten",
+  "oled96.writeCustomChar|block": "schreibe eigenes Zeichen %c|auf die OLED Anzeige",
+  "oled96.writeData|block": "sende Daten %n|zur OLED Anzeige",
+  "oled96.writeString|block": "schreibe %s|auf die OLED Anzeige",
+  "oled96|block": "Grove OLED Anzeige",
+  "{id:category}Oled96": "Oled96"
+}

@@ -1,0 +1,18 @@
+{
+  "oled96.clearDisplay|block": "clear display",
+  "oled96.clearRange|block": "clear %n|characters",
+  "oled96.cmd|block": "send command %c|to display",
+  "oled96.flipScreen|block": "flip display",
+  "oled96.initDisplay|block": "initialize display",
+  "oled96.invertDisplay|block": "set display to black on white",
+  "oled96.normalDisplay|block": "set display to white on black",
+  "oled96.setDisplayBrightness|block": "set display brightness|to %brightness",
+  "oled96.setTextXY|block": "set display cursor to|row %row|and column %column",
+  "oled96.turnOff|block": "turn display off",
+  "oled96.turnOn|block": "turn display on",
+  "oled96.writeCustomChar|block": "write custom character %c",
+  "oled96.writeData|block": "send data %n|to display",
+  "oled96.writeString|block": "write %s|to display",
+  "oled96|block": "Grove OLED",
+  "{id:category}Oled96": "Oled96"
+}

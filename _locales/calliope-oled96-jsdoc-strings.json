@@ -1,0 +1,18 @@
+{
+  "oled96": "Provides functions to control the Grove OLED 0.96\" from a Calliope Mini.",
+  "oled96.clearDisplay": "Clears the whole display.",
+  "oled96.clearRange": "Clears a range of characters, beginning from the current\ncursor position.",
+  "oled96.clearRange|param|n": "Number of characters to delete",
+  "oled96.cmd": "Sends a command to the display.\nOnly use this, if you know what you are doing.\n* For valid commands refer to the documentation of\nthe SSD1308.",
+  "oled96.flipScreen": "Flips the display upside down.",
+  "oled96.initDisplay": "Resets the display and clears it.\nShould be used at the start of the program.",
+  "oled96.invertDisplay": "Changes the display to black characters on a white background.",
+  "oled96.normalDisplay": "Changes the display to white characters on a black background.",
+  "oled96.setDisplayBrightness": "Changes the brightness of the display. Values range from 0 to 255.",
+  "oled96.setTextXY": "Move the cursor to a new position.",
+  "oled96.turnOff": "Turns the display off.",
+  "oled96.turnOn": "Turns the display on.",
+  "oled96.writeCustomChar": "Writes a custom character to the display\nat the current cursor position.\nA character is a string of 8 bytes. Each byte represesnts\na line of the character. The eight bits of each byte\nrepresent the pixels of a line of the character.\nEx. \"\\x00\\xFF\\x81\\x81\\x81\\xFF\\x00\\x00\"",
+  "oled96.writeData": "Writes a byte to the display.\nCould be used to directly paint to the display.",
+  "oled96.writeString": "Writes a string to the display at the current cursor position."
+}

@@ -8,8 +8,8 @@
     },
     "files": [
         "blocks-oled96.ts",
-        "_locales/de/pxt-calliope-oled96-jsdoc-strings.json",
-        "_locales/de/pxt-calliope-oled96-strings.json"
+        "_locales/de/calliope-oled96-jsdoc-strings.json",
+        "_locales/de/calliope-oled96-strings.json"
     ],
     "testFiles": [],
     "public": true
