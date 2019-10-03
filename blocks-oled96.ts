@@ -100,6 +100,7 @@ namespace oled96 {
      */
     //% blockId=oled96_normal_display
     //% block="set display to white on black"
+    //% advanced=true
     export function normalDisplay() {
         cmd(NORMAL_DISPLAY);
     }
@@ -109,6 +110,7 @@ namespace oled96 {
      */
     //% blockId=oled96_invert_display
     //% block="set display to black on white"
+    //% advanced=true
     export function invertDisplay() {
         cmd(INVERT_DISPLAY);
     }
@@ -118,6 +120,7 @@ namespace oled96 {
      */
     //% blockId=oled96_flip_screen
     //% block="flip display"
+    //% advanced=true
     export function flipScreen() {
         cmd(DISPLAY_OFF);
         cmd(COM_SCAN_INC);
@@ -134,6 +137,7 @@ namespace oled96 {
      */
     //% blockId=oled96_set_brightness
     //% block="set display brightness|to %brightness"
+    //% advanced=true
     export function setDisplayBrightness(brightness: number) {
         let b = brightness
         if (b < 0) {
@@ -151,6 +155,7 @@ namespace oled96 {
      */
     //% blockId=oled96_turn_off
     //% block="turn display off"
+    //% advanced=true
     export function turnOff() {
         cmd(DISPLAY_OFF);
     }
@@ -160,6 +165,7 @@ namespace oled96 {
      */
     //% blockId=oled96_turn_on
     //% block="turn display on"
+    //% advanced=true
     export function turnOn() {
         cmd(DISPLAY_ON);
     }
@@ -174,6 +180,7 @@ namespace oled96 {
      */
     //% blockId=oled96_write_custom_char
     //% block="write custom character %c"
+    //% advanced=true
     export function writeCustomChar(c: string) {
         for (let i = 0; i < 8; i++) {
             writeData(c.charCodeAt(i));
@@ -189,6 +196,7 @@ namespace oled96 {
      */
     //% blockId=oled96_send_command
     //% block="send command %c|to display"
+    //% advanced=true
     export function cmd(c: number) {
         pins.i2cWriteNumber(0x3c, c, NumberFormat.UInt16BE);
     }
@@ -199,6 +207,7 @@ namespace oled96 {
      */
     //% blockId=oled96_write_data
     //% block="send data %n|to display"
+    //% advanced=true
     export function writeData(n: number) {
         let b = n;
         if (n < 0) { n = 0 }
